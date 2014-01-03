@@ -1,4 +1,4 @@
-{ "name":        "favicon"
+{ "name":        "ico-ico"
 , "version":     "0.0.3"
 , "description": "find the url of a web site's favicon image"
 , "keywords":    ["favicon", "icon", "ico"]
