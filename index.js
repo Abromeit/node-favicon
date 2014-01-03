@@ -51,7 +51,7 @@ module.exports = function(url, callback) {
 function does_it_render(url, callback) {
   request(url, function(err, res, body) {
     if (err) return callback(err);
-    callback(null, res.statusCode == 200, res.request.href);
+    callback(null, res.statusCode == 200 && body.length > 0, res.request.href);
   });
 }
 

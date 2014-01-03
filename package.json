@@ -1,5 +1,5 @@
 { "name":        "ico-ico"
-, "version":     "0.0.3"
+, "version":     "0.0.4"
 , "description": "find the url of a web site's favicon image"
 , "keywords":    ["favicon", "icon", "ico"]
 , "homepage":    "https://github.com/octplane/favicon"

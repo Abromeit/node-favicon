@@ -11,6 +11,14 @@ describe("favicon", function() {
     });
   });
 
+  it("discovers a favicon.ico in SHORTUCT ICON", function(done) {
+    favicon("http://www.abandonware-france.org/", function(err, url) {
+      if (err) return done(err);
+      url.should.eql("http://www.abandonware-france.org/ltf_images/favicon.ico");
+      done();
+    });
+  });
+
   it("discovers a favicon found from a <link> tag", function(done) {
     favicon("http://hyperpolyglot.org/lisp", function(err, url) {
       if (err) return done(err);
