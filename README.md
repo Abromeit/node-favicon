@@ -9,6 +9,11 @@ A Node.js module for finding the URL of a web site's
 
     $ npm install favicon
 
+# Test
+
+	$ npm install -g mocha
+	$ mocha
+
 # Usage
 
 In this example, `favicon_url` is a `String` if an icon is found, or

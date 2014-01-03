@@ -2,6 +2,7 @@ var should  = require('should')
   , favicon = require(__dirname + '/../');
 
 describe("favicon", function() {
+  this.timeout(4000);
   it("discovers a favicon.ico in the web site root", function(done) {
     favicon("http://nodejs.org/", function(err, url) {
       if (err) return done(err);
@@ -29,7 +30,7 @@ describe("favicon", function() {
   it("handles single quotes", function(done) {
     favicon("http://hashrocket.com/articles", function(err, url) {
       if (err) return done(err);
-      url.should.eql("http://hashrocket.com/favicon.ico");
+      url.should.eql("http://hashrocket.com/favicon.png");
       done();
     });
   });
