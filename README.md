@@ -1,6 +1,6 @@
 # Favicon
 
-[![Build Status](https://secure.travis-ci.org/sentientwaffle/node-favicon.png?branch=master)](http://travis-ci.org/sentientwaffle/node-favicon)
+[![Build Status](https://secure.travis-ci.org/octplane/node-favicon.png?branch=master)](http://travis-ci.org/octplane/node-favicon)
 
 A Node.js module for finding the URL of a web site's
 [favicon](http://en.wikipedia.org/wiki/Favicon).
