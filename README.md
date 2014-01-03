@@ -7,7 +7,7 @@ A Node.js module for finding the URL of a web site's
 
 # Installation
 
-    $ npm install favicon
+    $ npm install ico-ico
 
 # Test
 
@@ -19,7 +19,7 @@ A Node.js module for finding the URL of a web site's
 In this example, `favicon_url` is a `String` if an icon is found, or
 `null` otherwise.
 
-    var favicon = require('favicon');
+    var favicon = require('ico-ico');
     
     favicon("http://nodejs.org/", function(err, favicon_url) {
       // ...
