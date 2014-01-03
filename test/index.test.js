@@ -13,7 +13,7 @@ describe("favicon", function() {
   it("discovers a favicon found from a <link> tag", function(done) {
     favicon("http://hyperpolyglot.org/lisp", function(err, url) {
       if (err) return done(err);
-      url.should.eql("http://hyperpolyglot.org/local--favicon/favicon.gif");
+      url.should.eql("http://hyperpolyglot.org/favicon.gif");
       done();
     });
   });
